@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+    color: plum;
+    font-family: Impact;
+    font-size: 40pt;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#output {
+      white-space: pre;
+      border-right: 2px solid plum;
+      animation: blink 1s steps(1) infinite;
+      min-height: 2.5rem;
+    }
+
+@keyframes blink {
+    50% { border-color: transparent; }
+}
+
+input {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 1rem;
+    width: 300px;
+    background: darkslateblue;
+    color: lavender;
+    border: 2px solid plum;
+    font-family: monospace;
+}
+
+input::placeholder {
+    color: lavenderblush;
+}

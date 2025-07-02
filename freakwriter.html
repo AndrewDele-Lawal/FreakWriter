@@ -1,0 +1,68 @@
+<!-- 
+ 
+Language: HTML (HyperText Markup Language)
+
+🧠 Paradigm:
+
+Declarative (not procedural or object-oriented)
+* Similar to SQL in that manner *
+
+You describe the structure and content of a web page, not how it behaves or runs step by step.
+* You can do this with Javascript *
+
+HTML is not a programming language — it’s a markup language used to define the layout and structure of content.
+*There are no Logical operations, data manipulation, or ways to change the flow of the program*
+
+📌 Key Characteristics:
+Markup-based: Uses tags (like <h1>, <p>, <div>) to define elements on a page.
+
+Static: By itself, HTML cannot handle logic, loops, or interactivity. It’s purely for content and structure.
+
+Hierarchical: HTML documents are structured as a tree of nested elements (DOM tree).
+
+Paired with CSS & JavaScript: HTML builds the skeleton, CSS styles it, and JavaScript adds interactivity.
+*The way I see this is like HTML is solely a header file where you initialize the structure of what you want
+Then afterwards you use CSS and JavaScript to actually make it happen*
+
+Interpreted by browsers: No need to compile — just write the code, save the .html file, and open it in any web browser. 
+
+* This summary was made in part with ChatGPT (Kinda bad with words) *
+-->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>HWOTD: HTML Freakwriter</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <!-- This links the css file -->
+
+</head>
+
+<!-- This whole thing basically is the boiler plate. It setups the framework for why this works -->
+
+<body>
+
+
+<div id="output"></div>
+<!-- imagine a box. It more or less holds our output from the JS file-->
+
+<input type="text" id="userInput" placeholder="Type your message and press Enter" />
+<!-- Creates a bar where a user can enter text -->
+
+<script src="A literal bomb.js"></script>
+<!-- Links our Javascript file to this html file -->
+
+</body>
+
+</html>
